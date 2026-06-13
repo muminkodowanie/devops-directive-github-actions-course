@@ -9,6 +9,6 @@ jobs:
     probujcecoiajk:
       runs-on: ubuntu-latest
       steps:
-        - run: "To jest próba przywołania JONI $JONI"
+        - run: echo "To jest próba przywołania JONI $JONI"
           
   
