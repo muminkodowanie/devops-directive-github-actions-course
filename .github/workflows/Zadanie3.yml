@@ -1,0 +1,14 @@
+name: Zadanie3
+on:
+  workflow_dispatch:
+env:
+  JONI: joni joni
+
+
+jobs:
+    probujcecoiajk:
+      runs-on: ubuntu-latest
+      steps:
+        - run: "To jest próba przywołania JONI $JONI"
+          
+  
